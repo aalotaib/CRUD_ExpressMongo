@@ -1,6 +1,10 @@
 
-console.log("start server");
-// app.listen(3000, function () {
-//     console.log('Welcome to this website')
-//
-// })
+console.log("startApp");
+const express = require('express');
+
+const app = express();
+
+app.listen(3000, function () {
+    console.log('Welcome to this website')
+
+})
